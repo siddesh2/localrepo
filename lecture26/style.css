@@ -1,0 +1,91 @@
+#navlist{
+    list-style-type: none;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: none;
+    
+}
+.navcontainer{
+    width: 100vw;
+    /* background-color: yellow; */
+    background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+    }
+
+    nav{
+        width: 100%;
+        overflow: none;
+    }
+
+
+#navlist{
+    /* width: 100%; */
+    padding: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    list-style: none;
+    font-size: 1.5rem;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+#navlogo{
+    font-size: 3rem;
+    color: white;
+}
+
+
+a{
+    text-decoration: none;
+    color: azure;
+}
+#navitem{
+    display: flex;
+    gap: 40px;
+}
+
+.footerbox{
+
+    /* grediant mix color */
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    width: 100%;
+    color: azure;
+ 
+    text-align: center;
+    min-height: 40px;
+}
+
+.footerbox{
+
+color: azure;
+font-size: 2rem;
+}
+
+.contentbox{
+ width: 70%;
+ margin: auto;
+ border: 2px solid black;
+ background-color: whitesmoke;
+}

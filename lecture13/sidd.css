@@ -1,0 +1,18 @@
+/* h1{
+    font-size: xx-large;
+    text-align: center;
+}
+p{
+    background-color: brown ;
+} */
+
+
+/* id selectore  csss */
+#abc{
+   color: rgb(255, 14, 46); 
+}
+
+.abc{
+    color: rgb(179, 249, 0);
+    background-color: brown;
+}

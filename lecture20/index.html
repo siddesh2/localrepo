@@ -1,0 +1,111 @@
+<!-- flexbox 1d layout methood flexible box powerful tool -->
+<!-- layrout methood hroizontal vertical -->
+<!-- vertical axis main axis
+horizontal axis cross axis -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: beige;
+            border: 5px solid black;
+            margin: 2px;
+            padding: 2px;
+            /* by defalut flex direction is row */
+            /* flex direction can to row column and both reverse */
+            display: flex;
+            flex-direction: row ;
+            /* wrapping on */
+            /* text wrap squuze when space availble  */
+            flex-wrap: wrap;
+            height: 800px;
+            /* justify content state space end around,centre,evenly, between */
+            justify-content: start;
+
+            /* align items flex start ,end, centre */
+            align-items: start;
+            /* when align conent the spacing get close */
+            align-content: end;
+            
+            
+
+        }
+        .box{
+            height: 200px;
+            width: 200px;
+            border: 2px solid brown;
+            margin: 2px;
+            padding: 2px;
+            /* firstly take all the space flex  grow */
+            flex-grow: 1;
+
+        }
+        #box1{
+            background-color: azure;
+            /* get value in order high value get down low or -ve value up */
+            order: 500;
+            flex-shrink: 4;
+            /* flex-grow: 1; */
+            align-self: end;
+
+        }
+        #box2{
+            background-color: bisque;
+            /* box dimesion set to 400 px */
+            flex-basis: 400px;
+        }
+        #box3{
+            background-color: seashell;
+        }
+        #box4{
+            background-color: aquamarine;
+            order: -1;
+        }
+    </style>
+
+
+</head>
+<body>
+    <div class="container">
+    <div class="box" id="box1">box1</div>
+    <div class="box" id="box2">box2</div>
+    <div class="box" id="box3">box3</div>
+    <div class="box" id="box4">box4</div>
+</div>
+</body>
+</html>
+
+<!-- flex item - order
+flex grow
+flex shirink ,basis , align self
+flex container
+flex container
+flex flow
+justifed content 
+aligned item
+aligned content -->
+
+
+
+<!-- flex-direction:column;
+justify-content: space aound, space between
+align-items 
+flex direction : column
+flex-wrap : wrap
+flex-wrap:wrap;
+flex-direction:column-reverse;
+align-content:center;
+
+
+
+
+flex-direction:column-reverse;
+flex-wrap:wrap-reverse;
+justify-content:center;
+align-content:space-between;
+
+-->

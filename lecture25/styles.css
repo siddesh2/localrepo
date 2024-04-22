@@ -1,0 +1,21 @@
+.box{
+    width:400px ;
+    height: 400px;
+    background-color: beige;
+    border: 2px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    transition: all;
+}
+
+.box:hover{
+    transform: rotate(45deg);
+}
+
+
+p{
+    font-size: 28px;
+}

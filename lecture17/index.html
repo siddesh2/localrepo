@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            border: 1px solid black;
+        }
+        img{
+            margin: 1px;
+        }
+        .image2{
+            top: 220px;
+            /* position: relative;
+            left: 200px; */
+            position: absolute;
+        }
+        .container{
+            position: relative;
+            height: 8000px;
+            background-color: beige;
+        
+
+        }
+
+        .image3{
+            position: sticky;
+            /* sticky upto its parent container only for that div */
+            top: 1px;
+        }
+        .image4{
+            position: fixed;
+            /* fixed to all classes, for entire webpage*/
+            /* realtive to parent  */
+        }
+        .box{
+            background-color: aquamarine;
+            height: 5000px;
+        }
+
+
+
+
+
+    </style>
+
+    
+</head>
+<body>
+    <div>
+    
+ <div class="container">
+
+    <img src="logo.jpeg" alt="logo" width="200px" height="200px" class="image1">
+    <img src="photo.jpeg" alt="logo" width="200px" height="200px" class="image2">
+    <img src="arrow.jpeg" alt="logo" width="200px" height="200px" class="image3">
+    <img src="naruto.webp" alt="logo" width="200px" height="200px" class="image4">
+
+</div>
+
+
+<div>
+
+</div>
+    <div class="box"></div>
+
+</body>
+</html>
+
+
+<!-- relative postion property -->
+<!-- right left and bottom property -->
+<!-- realative -> current window -> top , bottom,left,right -->
+<!-- gap maintained -->
+<!-- overlapping the image to another -->
+<!-- abs -> relative to it's closest position -->
